@@ -1,8 +1,7 @@
-(async () => {
-  const response = await fetch("https://fakestoreapi.com/products");
-  const products = await response.json();
+const response = await fetch("https://fakestoreapi.com/products");
+const products = await response.json();
 
-  document.getElementById("cards").innerHTML = `
+document.getElementById("cards").innerHTML = `
     ${products
       .map((product) => {
         return `
@@ -15,4 +14,3 @@
   </div>`;
       })
       .join("")}`;
-})();
