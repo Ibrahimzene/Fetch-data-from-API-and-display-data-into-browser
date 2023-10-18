@@ -1,0 +1,80 @@
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+a,
+.btn {
+  transition: all 300ms ease;
+}
+/* desktop */
+nav,
+.nav-links {
+  display: flex;
+}
+nav {
+  justify-content: space-around;
+  align-items: center;
+  height: 17vh;
+}
+.nav-links {
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.5rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+  text-decoration: white;
+}
+a:hover {
+  color: grey;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(181, 181, 181);
+}
+
+.logo{
+  font-size: 2rem;
+}
+.logo:hover {
+  cursor: default;
+}
+ */
+/* header api */
+.header-api {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 1.2em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 23%;
+  box-shadow: 0 0 5px rgb(140, 141, 140);
+  text-align: center;
+  padding: 1.5em;
+  margin-bottom: 2em;
+}
+
+.img-card{
+  width: 80%;
+  } 
+.title-card {
+  font-size: 1.5rem;
+
+}
+  .category, .price {
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 1em;
+  }
