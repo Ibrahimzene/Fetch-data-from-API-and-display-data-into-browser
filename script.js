@@ -1,6 +1,6 @@
 const response = await fetch("https://fakestoreapi.com/products");
 const products = await response.json();
-
+console.log(products);
 document.getElementById("cards").innerHTML = `
     ${products
       .map((product) => {
